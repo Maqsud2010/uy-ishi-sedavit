@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+.header_block{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header_block button{
+     cursor: pointer;
+    box-sizing: border-box;
+    padding: 12px 28px;
+    border: 1px solid #6BB40D;
+    border-radius: 60px;
+    background: #fff;
+    transition: 0.4s;
+    color: inherit;
+}
+.header_block h1{
+    color: rgb(41, 39, 39);
+}
+.header_block ul
+{
+    
+    display: flex;
+    gap: 60px;
+}
+.header_block ul li {
+display: flex;
+cursor: pointer;
+color: #00d087;
+}
+.header_block ul li:hover{
+    color: orange;
+    transition: 0.5s ease-in;
+}
+.hedr{
+    background: url(https://sedavit.uz/wp-content/themes/sedavyt/assets/img/backHomePage-uz.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 619px;
+    display: flex;
+    justify-content: center;
+}
+.hedr .right_part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hedr .left_part{
+   width: 50%;
+}
+.hedr .right_part h1{
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 78px;
+    line-height: 88px;
+    text-transform: uppercase;
+    color: #00d087;
+    margin-bottom: 12px;
+}
+.hedr .right_part .left{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.hedr .right_part h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 44px;
+    text-transform: uppercase;
+
+}
+.hedr .right_part .left .when{
+    width: 192px;
+    height: 62px;
+   border-radius: 60px;
+   background: #00d087;
+   border: 1px solid #6BB40D;
+   font-size: 18px;
+   color: white;
+   margin-top: 70px;
+}
+.hedr .right_part .left .what{
+    width: 196px;
+    height: 48px;
+    background: orange;
+    border-radius: 60px;
+    border: 1px solid orange;
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+}
